@@ -51,5 +51,5 @@ Install ```tqdm``` by following the Instruction from [tqdm](https://github.com/t
 
 3. Evaluation
    * run `./PA-tool/src/evaluation/stat/PrecisionRecallStats.java` to see result for XBlock
-   * result for XState are stored in the file `./PA-tool/eval_result/rq2/result.txt`
+   * `./PA-tool/eval_result/rq2/result.txt` stores result for XState
    * run `./PA-tool/src/evaluation/stat/EvalRQ3.java` to see result for XType
