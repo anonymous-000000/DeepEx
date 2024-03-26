@@ -1,0 +1,2 @@
+pos ./dataset/pos_test
+neg ./dataset/neg_test
