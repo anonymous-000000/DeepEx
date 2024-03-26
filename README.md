@@ -10,7 +10,7 @@
 2. [Dataset](#Dataset)
 3. [Requirement](#Requirement)
 4. [Instruction_to_Run_DeepEx](#Instruction_to_Run_DeepEx)
-5. [Instruction_to_Run_PA_Tool](#Instruction_to_Run_PA_Tool)
+5. [Instruction_to_Run_PA-tool](#Instruction_to_Run_PA-tool)
 
 ## Introduction
 
@@ -43,6 +43,13 @@ Install ```tqdm``` by following the Instruction from [tqdm](https://github.com/t
 
 2. Download the DeepEx source code and run ```main.py``` to see the result for our experiment.
 
-## Instruction_to_Run_PA_Tool
+## Instruction_to_Run_PA-tool
 
-1. Download the `dataset.zip` and extract it in `../PA-tool`
+1. Download the [dataset.zip](https://drive.google.com/drive/folders/1IafwY13wCfVGFhhdvx_CHk3GzMLqZJ92?usp=sharing) and extract its contents to `./PA-tool/dataset` 
+
+2. Run `./PA-tool/src/evaluation/Main.java`
+
+3. Evaluation
+   * run `./PA-tool/src/evaluation/stat/PrecisionRecallStats.java` to see result for XBlock
+   * result for XState are stored in the file `./PA-tool/eval_result/rq2/result.txt`
+   * run `./PA-tool/src/evaluation/stat/EvalRQ3.java` to see result for XType
