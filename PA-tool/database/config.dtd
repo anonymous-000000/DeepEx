@@ -1,0 +1,11 @@
+<!ELEMENT methods (method)+>
+<!ELEMENT method (id, exceptions, params, arity)>
+<!ATTLIST method name CDATA #REQUIRED>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT exceptions (e)+>
+<!ELEMENT e (#PCDATA)>
+<!ELEMENT params (param)*>
+<!ELEMENT param (type, name)*>
+<!ELEMENT arity (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
