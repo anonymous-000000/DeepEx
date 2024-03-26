@@ -10,6 +10,7 @@
 2. [Dataset](#Dataset)
 3. [Requirement](#Requirement)
 4. [Instruction_to_Run_DeepEx](#Instruction_to_Run_DeepEx)
+5. [Instruction_to_Run_PA_Tool](#Instruction_to_Run_PA_Tool)
 
 ## Introduction
 
@@ -40,4 +41,8 @@ Install ```tqdm``` by following the Instruction from [tqdm](https://github.com/t
 
 1. Download the dataset and save it in ```../DeepEx/data``` folder.
 
-2. Download the DeepEx source code and run ```main.py``` to see the result for our experiment. 
+2. Download the DeepEx source code and run ```main.py``` to see the result for our experiment.
+
+## Instruction_to_Run_PA_Tool
+
+1. Download the `dataset.zip` and extract it in `../PA-tool`
