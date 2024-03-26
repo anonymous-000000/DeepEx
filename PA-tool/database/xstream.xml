@@ -1,0 +1,3258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE methods SYSTEM "config.dtd">
+<methods>
+  <method name="addImmutableType">
+    <id>com.thoughtworks.xstream.XStream.addImmutableType( Class )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createObjectInputStream">
+    <id>com.thoughtworks.xstream.XStream.createObjectInputStream( InputStream )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>InputStream</type>
+        <name>in</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="XStream">
+    <id>com.thoughtworks.xstream.XStream.XStream( HierarchicalStreamDriver )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>hierarchicalStreamDriver</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="CustomObjectInputStream">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.CustomObjectInputStream( StreamCallback ClassLoader )</id>
+    <exceptions>
+      <e>SecurityException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>StreamCallback</type>
+        <name>callback</name>
+      </param>
+      <param>
+        <type>ClassLoader</type>
+        <name>classLoader</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.createObjectOutputStream( Templates Writer String )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Templates</type>
+        <name>stylesheet</name>
+      </param>
+      <param>
+        <type>Writer</type>
+        <name>writer</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>rootNodeName</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="StaxWriter">
+    <id>com.thoughtworks.xstream.io.xml.StaxWriter.StaxWriter( QNameMap XMLStreamWriter boolean boolean XmlFriendlyReplacer )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>QNameMap</type>
+        <name>qnameMap</name>
+      </param>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>writeEnclosingDocument</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>namespaceRepairingMode</name>
+      </param>
+      <param>
+        <type>XmlFriendlyReplacer</type>
+        <name>replacer</name>
+      </param>
+    </params>
+    <arity>5</arity>
+  </method>
+  <method name="readObject">
+    <id>com.thoughtworks.xstream.mapper.PackageAliasingMapper.readObject( ObjectInputStream )</id>
+    <exceptions>
+      <e>IOException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ObjectInputStream</type>
+        <name>in</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createReader">
+    <id>com.thoughtworks.xstream.io.xml.Dom4JDriver.createReader( )</id>
+    <exceptions>
+      <e>DocumentException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="XmlHeaderAwareReader">
+    <id>com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.XmlHeaderAwareReader( InputStream )</id>
+    <exceptions>
+      <e>UnsupportedEncodingException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>InputStream</type>
+        <name>in</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="writeObject">
+    <id>com.thoughtworks.xstream.mapper.AnnotationMapper.writeObject( ObjectOutputStream )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ObjectOutputStream</type>
+        <name>out</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="writeByte">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeByte( int )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>int</type>
+        <name>val</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.createObjectOutputStream( Source OutputStream String )</id>
+    <exceptions>
+      <e>TransformerConfigurationException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Source</type>
+        <name>stylesheet</name>
+      </param>
+      <param>
+        <type>OutputStream</type>
+        <name>target</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>rootNodeName</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="field">
+    <id>com.thoughtworks.xstream.converters.reflection.FieldDictionary.field( Class String Class )</id>
+    <exceptions>
+      <e>ObjectAccessException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>cls</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>definedIn</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStreamer.fromXML( Reader )</id>
+    <exceptions>
+      <e>XStreamException</e>
+      <e>IOException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Reader</type>
+        <name>xml</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="JettisonStaxWriter">
+    <id>com.thoughtworks.xstream.io.json.JettisonStaxWriter.JettisonStaxWriter( QNameMap XMLStreamWriter boolean boolean NameCoder MappedNamespaceConvention )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>QNameMap</type>
+        <name>qnameMap</name>
+      </param>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>writeEnclosingDocument</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>namespaceRepairingMode</name>
+      </param>
+      <param>
+        <type>NameCoder</type>
+        <name>nameCoder</name>
+      </param>
+      <param>
+        <type>MappedNamespaceConvention</type>
+        <name>convention</name>
+      </param>
+    </params>
+    <arity>6</arity>
+  </method>
+  <method name="addDefaultImplementation">
+    <id>com.thoughtworks.xstream.XStream.addDefaultImplementation( Class Class )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>defaultImplementation</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>ofType</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStream.fromXML( String T )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>xml</name>
+      </param>
+      <param>
+        <type>T</type>
+        <name>root</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="setXMLReader">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.setXMLReader( XMLReader )</id>
+    <exceptions>
+      <e>UnsupportedOperationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>XMLReader</type>
+        <name>reader</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStream.fromXML( URL )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>URL</type>
+        <name>url</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="JettisonStaxWriter">
+    <id>com.thoughtworks.xstream.io.json.JettisonStaxWriter.JettisonStaxWriter( QNameMap XMLStreamWriter NameCoder MappedNamespaceConvention )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>QNameMap</type>
+        <name>qnameMap</name>
+      </param>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>NameCoder</type>
+        <name>nameCoder</name>
+      </param>
+      <param>
+        <type>MappedNamespaceConvention</type>
+        <name>convention</name>
+      </param>
+    </params>
+    <arity>4</arity>
+  </method>
+  <method name="writeFloat">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeFloat( float )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>float</type>
+        <name>val</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="flush">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.flush( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="useAttributeFor">
+    <id>com.thoughtworks.xstream.XStream.useAttributeFor( Class )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="readFrom">
+    <id>com.thoughtworks.xstream.io.binary.Token.readFrom( DataInput byte )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>DataInput</type>
+        <name>in</name>
+      </param>
+      <param>
+        <type>byte</type>
+        <name>idType</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="TraxSource">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.TraxSource( List )</id>
+    <exceptions>
+      <e>IllegalArgumentException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>List</type>
+        <name>source</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="getStaxInputFactory">
+    <id>com.thoughtworks.xstream.core.JVM.getStaxInputFactory( )</id>
+    <exceptions>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="write">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.write( int )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>int</type>
+        <name>val</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="read">
+    <id>com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.read( char[] int int )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>char[]</type>
+        <name>cbuf</name>
+      </param>
+      <param>
+        <type>int</type>
+        <name>offset</name>
+      </param>
+      <param>
+        <type>int</type>
+        <name>length</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="startElement">
+    <id>com.thoughtworks.xstream.io.xml.Dom4JXmlWriter.startElement( )</id>
+    <exceptions>
+      <e>SAXException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStreamer.fromXML( HierarchicalStreamDriver Reader TypePermission[] )</id>
+    <exceptions>
+      <e>XStreamException</e>
+      <e>IOException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>driver</name>
+      </param>
+      <param>
+        <type>Reader</type>
+        <name>xml</name>
+      </param>
+      <param>
+        <type>TypePermission</type>
+        <name>permissions</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="loadClass">
+    <id>com.thoughtworks.xstream.core.util.ClassLoaderReference.loadClass( String )</id>
+    <exceptions>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.createObjectOutputStream( Source Writer )</id>
+    <exceptions>
+      <e>TransformerConfigurationException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Source</type>
+        <name>stylesheet</name>
+      </param>
+      <param>
+        <type>Writer</type>
+        <name>writer</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="writeInt">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeInt( int )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>int</type>
+        <name>val</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="CustomObjectInputStream">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.CustomObjectInputStream( StreamCallback ClassLoaderReference )</id>
+    <exceptions>
+      <e>SecurityException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>StreamCallback</type>
+        <name>callback</name>
+      </param>
+      <param>
+        <type>ClassLoaderReference</type>
+        <name>classLoaderReference</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="setMode">
+    <id>com.thoughtworks.xstream.XStream.setMode( int )</id>
+    <exceptions>
+      <e>IllegalArgumentException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>int</type>
+        <name>mode</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="build">
+    <id>com.thoughtworks.xstream.io.xml.xppdom.Xpp3DomBuilder.build( Reader )</id>
+    <exceptions>
+      <e>Exception</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Reader</type>
+        <name>reader</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="flushStartTag">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.flushStartTag( )</id>
+    <exceptions>
+      <e>SAXException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="XStream">
+    <id>com.thoughtworks.xstream.XStream.XStream( ReflectionProvider HierarchicalStreamDriver ClassLoader )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ReflectionProvider</type>
+        <name>reflectionProvider</name>
+      </param>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>driver</name>
+      </param>
+      <param>
+        <type>ClassLoader</type>
+        <name>classLoader</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="writeBoolean">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeBoolean( boolean )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>boolean</type>
+        <name>val</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="readShort">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readShort( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.createObjectOutputStream( Templates Writer )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Templates</type>
+        <name>stylesheet</name>
+      </param>
+      <param>
+        <type>Writer</type>
+        <name>writer</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.createObjectOutputStream( Source Writer String )</id>
+    <exceptions>
+      <e>TransformerConfigurationException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Source</type>
+        <name>stylesheet</name>
+      </param>
+      <param>
+        <type>Writer</type>
+        <name>writer</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>rootNodeName</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="readFully">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readFully( byte[] )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>byte[]</type>
+        <name>buf</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="parse">
+    <id>com.thoughtworks.xstream.core.util.ThreadSafeSimpleDateFormat.parse( String )</id>
+    <exceptions>
+      <e>ParseException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>date</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="resolveClass">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.resolveClass( ObjectStreamClass )</id>
+    <exceptions>
+      <e>IOException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ObjectStreamClass</type>
+        <name>desc</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="allows">
+    <id>com.thoughtworks.xstream.security.TypePermission.allows( Class )</id>
+    <exceptions>
+      <e>ForbiddenClassException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="defaultReadObject">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.defaultReadObject( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="writeString">
+    <id>com.thoughtworks.xstream.io.binary.Token.writeString( DataOutput String )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>DataOutput</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>string</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="checkException">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.checkException( TransformerException )</id>
+    <exceptions>
+      <e>Error</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>TransformerException</type>
+        <name>transformerException</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.XStream.createObjectOutputStream( Writer String )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Writer</type>
+        <name>writer</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>rootNodeName</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="writeChars">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeChars( String )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>str</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="readString">
+    <id>com.thoughtworks.xstream.io.binary.Token.readString( DataInput )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>DataInput</type>
+        <name>in</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.XStream.createObjectOutputStream( HierarchicalStreamWriter String DataHolder )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamWriter</type>
+        <name>writer</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>rootNodeName</name>
+      </param>
+      <param>
+        <type>DataHolder</type>
+        <name>dataHolder</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="writeChar">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeChar( int )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>int</type>
+        <name>val</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="mark">
+    <id>com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.mark( int )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>int</type>
+        <name>readAheadLimit</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createObjectInputStream">
+    <id>com.thoughtworks.xstream.XStream.createObjectInputStream( HierarchicalStreamReader DataHolder )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamReader</type>
+        <name>reader</name>
+      </param>
+      <param>
+        <type>DataHolder</type>
+        <name>dataHolder</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStreamer.fromXML( HierarchicalStreamDriver String )</id>
+    <exceptions>
+      <e>XStreamException</e>
+      <e>ObjectStreamException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>driver</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>xml</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="close">
+    <id>com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.close( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="createStaxWriter">
+    <id>com.thoughtworks.xstream.io.xml.StaxDriver.createStaxWriter( XMLStreamWriter boolean )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>writeStartEndDocument</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="setSourceAsList">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.setSourceAsList( List )</id>
+    <exceptions>
+      <e>IllegalArgumentException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>List</type>
+        <name>list</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="defaultWriteObject">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.defaultWriteObject( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="createWriter">
+    <id>com.thoughtworks.xstream.io.binary.BinaryStreamDriver.createWriter( Writer )</id>
+    <exceptions>
+      <e>UnsupportedOperationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Writer</type>
+        <name>out</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="readFully">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readFully( byte[] int int )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>byte[]</type>
+        <name>buf</name>
+      </param>
+      <param>
+        <type>int</type>
+        <name>off</name>
+      </param>
+      <param>
+        <type>int</type>
+        <name>len</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="createDefaultParser">
+    <id>com.thoughtworks.xstream.io.xml.xppdom.XppFactory.createDefaultParser( )</id>
+    <exceptions>
+      <e>XmlPullParserException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="alias">
+    <id>com.thoughtworks.xstream.XStream.alias( String Class )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="aliasSystemAttribute">
+    <id>com.thoughtworks.xstream.XStream.aliasSystemAttribute( String String )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>alias</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>systemAttributeName</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="readUnshared">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readUnshared( )</id>
+    <exceptions>
+      <e>IOException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="read">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.read( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="ToStringConverter">
+    <id>com.thoughtworks.xstream.converters.extended.ToStringConverter.ToStringConverter( Class )</id>
+    <exceptions>
+      <e>NoSuchMethodException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>clazz</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="XStream">
+    <id>com.thoughtworks.xstream.XStream.XStream( ReflectionProvider HierarchicalStreamDriver ClassLoaderReference )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ReflectionProvider</type>
+        <name>reflectionProvider</name>
+      </param>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>driver</name>
+      </param>
+      <param>
+        <type>ClassLoaderReference</type>
+        <name>classLoaderReference</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="writeUTF">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeUTF( String )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>str</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStream.fromXML( File )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>File</type>
+        <name>file</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="unmarshal">
+    <id>com.thoughtworks.xstream.XStream.unmarshal( HierarchicalStreamReader )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamReader</type>
+        <name>reader</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStreamer.fromXML( HierarchicalStreamDriver String TypePermission[] )</id>
+    <exceptions>
+      <e>XStreamException</e>
+      <e>ObjectStreamException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>driver</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>xml</name>
+      </param>
+      <param>
+        <type>TypePermission</type>
+        <name>permissions</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="XStream">
+    <id>com.thoughtworks.xstream.XStream.XStream( ReflectionProvider HierarchicalStreamDriver ClassLoader Mapper ConverterLookup ConverterRegistry )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ReflectionProvider</type>
+        <name>reflectionProvider</name>
+      </param>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>driver</name>
+      </param>
+      <param>
+        <type>ClassLoader</type>
+        <name>classLoader</name>
+      </param>
+      <param>
+        <type>Mapper</type>
+        <name>mapper</name>
+      </param>
+      <param>
+        <type>ConverterLookup</type>
+        <name>converterLookup</name>
+      </param>
+      <param>
+        <type>ConverterRegistry</type>
+        <name>converterRegistry</name>
+      </param>
+    </params>
+    <arity>6</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.createObjectOutputStream( Templates OutputStream String )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Templates</type>
+        <name>stylesheet</name>
+      </param>
+      <param>
+        <type>OutputStream</type>
+        <name>target</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>rootNodeName</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="XStream">
+    <id>com.thoughtworks.xstream.XStream.XStream( ReflectionProvider HierarchicalStreamDriver ClassLoader Mapper )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ReflectionProvider</type>
+        <name>reflectionProvider</name>
+      </param>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>driver</name>
+      </param>
+      <param>
+        <type>ClassLoader</type>
+        <name>classLoader</name>
+      </param>
+      <param>
+        <type>Mapper</type>
+        <name>mapper</name>
+      </param>
+    </params>
+    <arity>4</arity>
+  </method>
+  <method name="aliasPackage">
+    <id>com.thoughtworks.xstream.XStream.aliasPackage( String String )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>pkgName</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="setProperty">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.setProperty( String Object )</id>
+    <exceptions>
+      <e>SAXNotSupportedException</e>
+      <e>SAXNotRecognizedException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+      <param>
+        <type>Object</type>
+        <name>value</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="build">
+    <id>com.thoughtworks.xstream.io.xml.xppdom.XppDom.build( XmlPullParser )</id>
+    <exceptions>
+      <e>XmlPullParserException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>XmlPullParser</type>
+        <name>parser</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="setSource">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.setSource( Object )</id>
+    <exceptions>
+      <e>IllegalArgumentException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Object</type>
+        <name>obj</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="readBoolean">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readBoolean( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="parse">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.parse( String )</id>
+    <exceptions>
+      <e>SAXException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>systemId</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="loadClass">
+    <id>com.thoughtworks.xstream.core.util.CompositeClassLoader.loadClass( String )</id>
+    <exceptions>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="ready">
+    <id>com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.ready( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="toXML">
+    <id>com.thoughtworks.xstream.XStreamer.toXML( XStream Object Writer )</id>
+    <exceptions>
+      <e>XStreamException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>XStream</type>
+        <name>xstream</name>
+      </param>
+      <param>
+        <type>Object</type>
+        <name>obj</name>
+      </param>
+      <param>
+        <type>Writer</type>
+        <name>out</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="setDTDHandler">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.setDTDHandler( DTDHandler )</id>
+    <exceptions>
+      <e>NullPointerException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>DTDHandler</type>
+        <name>handler</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="readUTF">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readUTF( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="registerValidation">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.registerValidation( ObjectInputValidation int )</id>
+    <exceptions>
+      <e>NotActiveException</e>
+      <e>InvalidObjectException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ObjectInputValidation</type>
+        <name>validation</name>
+      </param>
+      <param>
+        <type>int</type>
+        <name>priority</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="setEntityResolver">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.setEntityResolver( EntityResolver )</id>
+    <exceptions>
+      <e>NullPointerException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>EntityResolver</type>
+        <name>resolver</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="useAttributeFor">
+    <id>com.thoughtworks.xstream.XStream.useAttributeFor( Class String )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>definedIn</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>fieldName</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.XStream.createObjectOutputStream( HierarchicalStreamWriter String )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamWriter</type>
+        <name>writer</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>rootNodeName</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="writeLong">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeLong( long )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>long</type>
+        <name>val</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="alias">
+    <id>com.thoughtworks.xstream.XStream.alias( String Class Class )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>defaultImplementation</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="JettisonStaxWriter">
+    <id>com.thoughtworks.xstream.io.json.JettisonStaxWriter.JettisonStaxWriter( QNameMap XMLStreamWriter boolean boolean XmlFriendlyReplacer MappedNamespaceConvention )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>QNameMap</type>
+        <name>qnameMap</name>
+      </param>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>writeEnclosingDocument</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>namespaceRepairingMode</name>
+      </param>
+      <param>
+        <type>XmlFriendlyReplacer</type>
+        <name>replacer</name>
+      </param>
+      <param>
+        <type>MappedNamespaceConvention</type>
+        <name>convention</name>
+      </param>
+    </params>
+    <arity>6</arity>
+  </method>
+  <method name="writeShort">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeShort( int )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>int</type>
+        <name>val</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="peekElement">
+    <id>com.thoughtworks.xstream.io.path.PathTracker.peekElement( int )</id>
+    <exceptions>
+      <e>ArrayIndexOutOfBoundsException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>int</type>
+        <name>i</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="writeObject">
+    <id>com.thoughtworks.xstream.mapper.PackageAliasingMapper.writeObject( ObjectOutputStream )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ObjectOutputStream</type>
+        <name>out</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="get">
+    <id>com.thoughtworks.xstream.converters.javabean.BeanProperty.get( Object )</id>
+    <exceptions>
+      <e>IllegalArgumentException</e>
+      <e>IllegalAccessException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Object</type>
+        <name>member</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="JettisonStaxWriter">
+    <id>com.thoughtworks.xstream.io.json.JettisonStaxWriter.JettisonStaxWriter( QNameMap XMLStreamWriter boolean boolean MappedNamespaceConvention )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>QNameMap</type>
+        <name>qnameMap</name>
+      </param>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>writeEnclosingDocument</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>namespaceRepairingMode</name>
+      </param>
+      <param>
+        <type>MappedNamespaceConvention</type>
+        <name>convention</name>
+      </param>
+    </params>
+    <arity>5</arity>
+  </method>
+  <method name="newInstance">
+    <id>com.thoughtworks.xstream.core.util.DependencyInjectionFactory.newInstance( Class Object[] BitSet )</id>
+    <exceptions>
+      <e>ObjectAccessException</e>
+      <e>IllegalArgumentException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+      <param>
+        <type>Object[]</type>
+        <name>dependencies</name>
+      </param>
+      <param>
+        <type>BitSet</type>
+        <name>usedDependencies</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="readInt">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readInt( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="createObjectInputStream">
+    <id>com.thoughtworks.xstream.XStream.createObjectInputStream( Reader )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Reader</type>
+        <name>xmlReader</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="StaxWriter">
+    <id>com.thoughtworks.xstream.io.xml.StaxWriter.StaxWriter( QNameMap XMLStreamWriter boolean boolean )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>QNameMap</type>
+        <name>qnameMap</name>
+      </param>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>writeEnclosingDocument</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>namespaceRepairingMode</name>
+      </param>
+    </params>
+    <arity>4</arity>
+  </method>
+  <method name="parse">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.parse( InputSource )</id>
+    <exceptions>
+      <e>SAXException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>InputSource</type>
+        <name>input</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createParser">
+    <id>com.thoughtworks.xstream.io.xml.StaxDriver.createParser( Source )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Source</type>
+        <name>source</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="addImplicitArray">
+    <id>com.thoughtworks.xstream.XStream.addImplicitArray( Class String Class )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>ownerType</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>fieldName</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>itemType</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="readChar">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readChar( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="newInstance">
+    <id>com.thoughtworks.xstream.core.util.DependencyInjectionFactory.newInstance( Class Object[] )</id>
+    <exceptions>
+      <e>ObjectAccessException</e>
+      <e>IllegalArgumentException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+      <param>
+        <type>Object</type>
+        <name>dependencies</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="setXStream">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.setXStream( XStream )</id>
+    <exceptions>
+      <e>IllegalArgumentException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>XStream</type>
+        <name>xstream</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createDefaultParser">
+    <id>com.thoughtworks.xstream.io.xml.XppDriver.createDefaultParser( )</id>
+    <exceptions>
+      <e>XmlPullParserException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStream.fromXML( URL T )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>URL</type>
+        <name>url</name>
+      </param>
+      <param>
+        <type>T</type>
+        <name>root</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="XStream">
+    <id>com.thoughtworks.xstream.XStream.XStream( ReflectionProvider HierarchicalStreamDriver ClassLoaderReference Mapper )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ReflectionProvider</type>
+        <name>reflectionProvider</name>
+      </param>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>driver</name>
+      </param>
+      <param>
+        <type>ClassLoaderReference</type>
+        <name>classLoaderReference</name>
+      </param>
+      <param>
+        <type>Mapper</type>
+        <name>mapper</name>
+      </param>
+    </params>
+    <arity>4</arity>
+  </method>
+  <method name="toXML">
+    <id>com.thoughtworks.xstream.XStream.toXML( Object OutputStream )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Object</type>
+        <name>obj</name>
+      </param>
+      <param>
+        <type>OutputStream</type>
+        <name>out</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="close">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.close( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="createReader">
+    <id>com.thoughtworks.xstream.io.binary.BinaryStreamDriver.createReader( Reader )</id>
+    <exceptions>
+      <e>UnsupportedOperationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Reader</type>
+        <name>in</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="writeFields">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeFields( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="unmarshal">
+    <id>com.thoughtworks.xstream.XStream.unmarshal( HierarchicalStreamReader T DataHolder )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamReader</type>
+        <name>reader</name>
+      </param>
+      <param>
+        <type>T</type>
+        <name>root</name>
+      </param>
+      <param>
+        <type>DataHolder</type>
+        <name>dataHolder</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="writeDouble">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeDouble( double )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>double</type>
+        <name>val</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="aliasAttribute">
+    <id>com.thoughtworks.xstream.XStream.aliasAttribute( Class String String )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>definedIn</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>attributeName</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>alias</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="set">
+    <id>com.thoughtworks.xstream.converters.javabean.BeanProperty.set( Object Object )</id>
+    <exceptions>
+      <e>IllegalArgumentException</e>
+      <e>IllegalAccessException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Object</type>
+        <name>member</name>
+      </param>
+      <param>
+        <type>Object</type>
+        <name>newValue</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="getFeature">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.getFeature( String )</id>
+    <exceptions>
+      <e>SAXNotRecognizedException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="TraxSource">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.TraxSource( Object XStream )</id>
+    <exceptions>
+      <e>IllegalArgumentException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Object</type>
+        <name>source</name>
+      </param>
+      <param>
+        <type>XStream</type>
+        <name>xstream</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="readUnsignedShort">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readUnsignedShort( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="writeObjectOverride">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.writeObjectOverride( Object )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Object</type>
+        <name>obj</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="reset">
+    <id>com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.reset( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="XStream">
+    <id>com.thoughtworks.xstream.XStream.XStream( ReflectionProvider HierarchicalStreamDriver ClassLoaderReference Mapper ConverterLookup ConverterRegistry )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ReflectionProvider</type>
+        <name>reflectionProvider</name>
+      </param>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>driver</name>
+      </param>
+      <param>
+        <type>ClassLoaderReference</type>
+        <name>classLoaderReference</name>
+      </param>
+      <param>
+        <type>Mapper</type>
+        <name>mapper</name>
+      </param>
+      <param>
+        <type>ConverterLookup</type>
+        <name>converterLookup</name>
+      </param>
+      <param>
+        <type>ConverterRegistry</type>
+        <name>converterRegistry</name>
+      </param>
+    </params>
+    <arity>6</arity>
+  </method>
+  <method name="aliasAttribute">
+    <id>com.thoughtworks.xstream.XStream.aliasAttribute( String String )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>alias</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>attributeName</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStreamer.fromXML( String )</id>
+    <exceptions>
+      <e>XStreamException</e>
+      <e>ObjectStreamException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>xml</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="endDocument">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.endDocument( boolean )</id>
+    <exceptions>
+      <e>SAXException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>boolean</type>
+        <name>multiObjectMode</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStreamer.fromXML( String TypePermission[] )</id>
+    <exceptions>
+      <e>XStreamException</e>
+      <e>ObjectStreamException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>xml</name>
+      </param>
+      <param>
+        <type>TypePermission</type>
+        <name>permissions</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="setInputSource">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.setInputSource( InputSource )</id>
+    <exceptions>
+      <e>UnsupportedOperationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>InputSource</type>
+        <name>inputSource</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="setFeature">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.setFeature( String boolean )</id>
+    <exceptions>
+      <e>SAXNotRecognizedException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>value</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="readByte">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readByte( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="aliasType">
+    <id>com.thoughtworks.xstream.XStream.aliasType( String Class )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.XStream.createObjectOutputStream( OutputStream String )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>OutputStream</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>rootNodeName</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="startDocument">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.startDocument( boolean )</id>
+    <exceptions>
+      <e>SAXException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>boolean</type>
+        <name>multiObjectMode</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="readDouble">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readDouble( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="writeId">
+    <id>com.thoughtworks.xstream.io.binary.Token.writeId( DataOutput long byte )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>DataOutput</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>long</type>
+        <name>id</name>
+      </param>
+      <param>
+        <type>byte</type>
+        <name>idType</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="readObjectOverride">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readObjectOverride( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="marshal">
+    <id>com.thoughtworks.xstream.XStream.marshal( Object HierarchicalStreamWriter )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Object</type>
+        <name>obj</name>
+      </param>
+      <param>
+        <type>HierarchicalStreamWriter</type>
+        <name>writer</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="createParser">
+    <id>com.thoughtworks.xstream.io.xml.AbstractXppDriver.createParser( )</id>
+    <exceptions>
+      <e>XmlPullParserException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="skip">
+    <id>com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.skip( long )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>long</type>
+        <name>n</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="marshal">
+    <id>com.thoughtworks.xstream.XStream.marshal( Object HierarchicalStreamWriter DataHolder )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Object</type>
+        <name>obj</name>
+      </param>
+      <param>
+        <type>HierarchicalStreamWriter</type>
+        <name>writer</name>
+      </param>
+      <param>
+        <type>DataHolder</type>
+        <name>dataHolder</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="addImplicitArray">
+    <id>com.thoughtworks.xstream.XStream.addImplicitArray( Class String String )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>ownerType</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>fieldName</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>itemName</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="createParser">
+    <id>com.thoughtworks.xstream.io.xml.XppDomDriver.createParser( )</id>
+    <exceptions>
+      <e>XmlPullParserException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStream.fromXML( Reader )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Reader</type>
+        <name>reader</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createParser">
+    <id>com.thoughtworks.xstream.io.xml.StaxDriver.createParser( InputStream )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>InputStream</type>
+        <name>xml</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="TraxSource">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.TraxSource( Object )</id>
+    <exceptions>
+      <e>IllegalArgumentException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Object</type>
+        <name>source</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="useAttributeFor">
+    <id>com.thoughtworks.xstream.XStream.useAttributeFor( String Class )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>fieldName</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="addImplicitCollection">
+    <id>com.thoughtworks.xstream.XStream.addImplicitCollection( Class String String Class )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>ownerType</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>fieldName</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>itemFieldName</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>itemType</name>
+      </param>
+    </params>
+    <arity>4</arity>
+  </method>
+  <method name="readLong">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readLong( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="TraxSource">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.TraxSource( List XStream )</id>
+    <exceptions>
+      <e>IllegalArgumentException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>List</type>
+        <name>source</name>
+      </param>
+      <param>
+        <type>XStream</type>
+        <name>xstream</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="createParser">
+    <id>com.thoughtworks.xstream.io.xml.StaxDriver.createParser( Reader )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Reader</type>
+        <name>xml</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="read">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.read( byte[] )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>byte</type>
+        <name>b</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="write">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.write( byte[] )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>byte[]</type>
+        <name>buf</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="close">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.close( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="readObject">
+    <id>com.thoughtworks.xstream.mapper.AnnotationMapper.readObject( ObjectInputStream )</id>
+    <exceptions>
+      <e>IOException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ObjectInputStream</type>
+        <name>in</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="read">
+    <id>com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.read( CharBuffer )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>CharBuffer</type>
+        <name>target</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="toXML">
+    <id>com.thoughtworks.xstream.XStream.toXML( Object )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Object</type>
+        <name>obj</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStream.fromXML( InputStream T )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>InputStream</type>
+        <name>input</name>
+      </param>
+      <param>
+        <type>T</type>
+        <name>root</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="buildDom">
+    <id>com.thoughtworks.xstream.io.xml.xppdom.XppFactory.buildDom( InputStream String )</id>
+    <exceptions>
+      <e>XmlPullParserException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>InputStream</type>
+        <name>in</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>encoding</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="StaxWriter">
+    <id>com.thoughtworks.xstream.io.xml.StaxWriter.StaxWriter( QNameMap XMLStreamWriter NameCoder )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>QNameMap</type>
+        <name>qnameMap</name>
+      </param>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>NameCoder</type>
+        <name>nameCoder</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStream.fromXML( String )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>xml</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="write">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.write( byte[] int int )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>byte[]</type>
+        <name>buf</name>
+      </param>
+      <param>
+        <type>int</type>
+        <name>off</name>
+      </param>
+      <param>
+        <type>int</type>
+        <name>len</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="buildDom">
+    <id>com.thoughtworks.xstream.io.xml.xppdom.XppFactory.buildDom( Reader )</id>
+    <exceptions>
+      <e>XmlPullParserException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Reader</type>
+        <name>r</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStreamer.fromXML( HierarchicalStreamDriver Reader )</id>
+    <exceptions>
+      <e>XStreamException</e>
+      <e>IOException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>driver</name>
+      </param>
+      <param>
+        <type>Reader</type>
+        <name>xml</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.XStream.createObjectOutputStream( OutputStream )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>OutputStream</type>
+        <name>out</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="getField">
+    <id>com.thoughtworks.xstream.converters.reflection.ReflectionProvider.getField( Class String )</id>
+    <exceptions>
+      <e>ObjectAccessException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>definedIn</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>fieldName</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="getProperty">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.getProperty( String )</id>
+    <exceptions>
+      <e>SAXNotRecognizedException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="StaxWriter">
+    <id>com.thoughtworks.xstream.io.xml.StaxWriter.StaxWriter( QNameMap XMLStreamWriter )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>QNameMap</type>
+        <name>qnameMap</name>
+      </param>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="DefaultConverterLookup">
+    <id>com.thoughtworks.xstream.core.DefaultConverterLookup.DefaultConverterLookup( Map )</id>
+    <exceptions>
+      <e>NullPointerException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Map</type>
+        <name>map</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="addImmutableType">
+    <id>com.thoughtworks.xstream.XStream.addImmutableType( Class boolean )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>isReferenceable</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="JettisonStaxWriter">
+    <id>com.thoughtworks.xstream.io.json.JettisonStaxWriter.JettisonStaxWriter( QNameMap XMLStreamWriter MappedNamespaceConvention )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>QNameMap</type>
+        <name>qnameMap</name>
+      </param>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>MappedNamespaceConvention</type>
+        <name>convention</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="createParser">
+    <id>com.thoughtworks.xstream.io.xml.AbstractXppDomDriver.createParser( )</id>
+    <exceptions>
+      <e>XmlPullParserException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="setErrorHandler">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.setErrorHandler( ErrorHandler )</id>
+    <exceptions>
+      <e>NullPointerException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ErrorHandler</type>
+        <name>handler</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createParser">
+    <id>com.thoughtworks.xstream.io.xml.XppDriver.createParser( )</id>
+    <exceptions>
+      <e>XmlPullParserException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.XStream.createObjectOutputStream( Writer )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Writer</type>
+        <name>writer</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.createObjectOutputStream( Templates OutputStream )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Templates</type>
+        <name>stylesheet</name>
+      </param>
+      <param>
+        <type>OutputStream</type>
+        <name>target</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="createObjectInputStream">
+    <id>com.thoughtworks.xstream.XStream.createObjectInputStream( HierarchicalStreamReader )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamReader</type>
+        <name>reader</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="unmarshal">
+    <id>com.thoughtworks.xstream.XStream.unmarshal( HierarchicalStreamReader T )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamReader</type>
+        <name>reader</name>
+      </param>
+      <param>
+        <type>T</type>
+        <name>root</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="toXML">
+    <id>com.thoughtworks.xstream.XStreamer.toXML( XStream Object )</id>
+    <exceptions>
+      <e>XStreamException</e>
+      <e>ObjectStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>XStream</type>
+        <name>xstream</name>
+      </param>
+      <param>
+        <type>Object</type>
+        <name>obj</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="writeTo">
+    <id>com.thoughtworks.xstream.io.binary.Token.writeTo( DataOutput byte )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>DataOutput</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>byte</type>
+        <name>idType</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.io.xml.TraxSource.createObjectOutputStream( Source OutputStream )</id>
+    <exceptions>
+      <e>TransformerConfigurationException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Source</type>
+        <name>stylesheet</name>
+      </param>
+      <param>
+        <type>OutputStream</type>
+        <name>target</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStreamer.fromXML( Reader TypePermission[] )</id>
+    <exceptions>
+      <e>XStreamException</e>
+      <e>IOException</e>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Reader</type>
+        <name>xml</name>
+      </param>
+      <param>
+        <type>TypePermission</type>
+        <name>permissions</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="readFields">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readFields( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="addImplicitCollection">
+    <id>com.thoughtworks.xstream.XStream.addImplicitCollection( Class String Class )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>ownerType</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>fieldName</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>itemType</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="getStaxOutputFactory">
+    <id>com.thoughtworks.xstream.core.JVM.getStaxOutputFactory( )</id>
+    <exceptions>
+      <e>ClassNotFoundException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="mapCharToInt">
+    <id>com.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt( Reader )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Reader</type>
+        <name>input</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="newInstance">
+    <id>com.thoughtworks.xstream.core.util.DependencyInjectionFactory.newInstance( BitSet Class Object[] )</id>
+    <exceptions>
+      <e>ObjectAccessException</e>
+      <e>IllegalArgumentException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>BitSet</type>
+        <name>usedDependencies</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+      <param>
+        <type>Object</type>
+        <name>dependencies</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="read">
+    <id>com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.read( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="readId">
+    <id>com.thoughtworks.xstream.io.binary.Token.readId( DataInput byte )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>DataInput</type>
+        <name>in</name>
+      </param>
+      <param>
+        <type>byte</type>
+        <name>idType</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="read">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.read( byte[] int int )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>byte[]</type>
+        <name>buf</name>
+      </param>
+      <param>
+        <type>int</type>
+        <name>off</name>
+      </param>
+      <param>
+        <type>int</type>
+        <name>len</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="createStaxWriter">
+    <id>com.thoughtworks.xstream.io.xml.StaxDriver.createStaxWriter( XMLStreamWriter )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="toXML">
+    <id>com.thoughtworks.xstream.XStream.toXML( Object Writer )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Object</type>
+        <name>obj</name>
+      </param>
+      <param>
+        <type>Writer</type>
+        <name>out</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="setContentHandler">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.setContentHandler( ContentHandler )</id>
+    <exceptions>
+      <e>NullPointerException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ContentHandler</type>
+        <name>handler</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="readFloat">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readFloat( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="aliasField">
+    <id>com.thoughtworks.xstream.XStream.aliasField( String Class String )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>alias</name>
+      </param>
+      <param>
+        <type>Class</type>
+        <name>definedIn</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>fieldName</name>
+      </param>
+    </params>
+    <arity>3</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStream.fromXML( File T )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>File</type>
+        <name>file</name>
+      </param>
+      <param>
+        <type>T</type>
+        <name>root</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="XStream">
+    <id>com.thoughtworks.xstream.XStream.XStream( ReflectionProvider HierarchicalStreamDriver )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ReflectionProvider</type>
+        <name>reflectionProvider</name>
+      </param>
+      <param>
+        <type>HierarchicalStreamDriver</type>
+        <name>hierarchicalStreamDriver</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="getHeader">
+    <id>com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.getHeader( PushbackInputStream[] )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>PushbackInputStream[]</type>
+        <name>in</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="propertyDescriptor">
+    <id>com.thoughtworks.xstream.converters.javabean.PropertyDictionary.propertyDescriptor( Class String )</id>
+    <exceptions>
+      <e>MissingFieldException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>type</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>name</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStream.fromXML( Reader T )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Reader</type>
+        <name>xml</name>
+      </param>
+      <param>
+        <type>T</type>
+        <name>root</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="XStream">
+    <id>com.thoughtworks.xstream.XStream.XStream( ReflectionProvider )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>ReflectionProvider</type>
+        <name>reflectionProvider</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="omitField">
+    <id>com.thoughtworks.xstream.XStream.omitField( Class String )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>Class</type>
+        <name>definedIn</name>
+      </param>
+      <param>
+        <type>String</type>
+        <name>fieldName</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+  <method name="readUnsignedByte">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectInputStream.readUnsignedByte( )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="fromXML">
+    <id>com.thoughtworks.xstream.XStream.fromXML( InputStream )</id>
+    <exceptions>
+      <e>XStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>InputStream</type>
+        <name>input</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="read">
+    <id>com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.read( char[] )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>char[]</type>
+        <name>cbuf</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="parse">
+    <id>com.thoughtworks.xstream.io.xml.SaxWriter.parse( )</id>
+    <exceptions>
+      <e>SAXException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="StaxWriter">
+    <id>com.thoughtworks.xstream.io.xml.StaxWriter.StaxWriter( QNameMap XMLStreamWriter boolean boolean NameCoder )</id>
+    <exceptions>
+      <e>XMLStreamException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>QNameMap</type>
+        <name>qnameMap</name>
+      </param>
+      <param>
+        <type>XMLStreamWriter</type>
+        <name>out</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>writeEnclosingDocument</name>
+      </param>
+      <param>
+        <type>boolean</type>
+        <name>namespaceRepairingMode</name>
+      </param>
+      <param>
+        <type>NameCoder</type>
+        <name>nameCoder</name>
+      </param>
+    </params>
+    <arity>5</arity>
+  </method>
+  <method name="XStream">
+    <id>com.thoughtworks.xstream.XStream.XStream( )</id>
+    <exceptions>
+      <e>InitializationException</e>
+    </exceptions>
+    <params/>
+    <arity>0</arity>
+  </method>
+  <method name="buildDom">
+    <id>com.thoughtworks.xstream.io.xml.xppdom.XppFactory.buildDom( String )</id>
+    <exceptions>
+      <e>XmlPullParserException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>String</type>
+        <name>xml</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="createObjectOutputStream">
+    <id>com.thoughtworks.xstream.XStream.createObjectOutputStream( HierarchicalStreamWriter )</id>
+    <exceptions>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>HierarchicalStreamWriter</type>
+        <name>writer</name>
+      </param>
+    </params>
+    <arity>1</arity>
+  </method>
+  <method name="CustomObjectOutputStream">
+    <id>com.thoughtworks.xstream.core.util.CustomObjectOutputStream.CustomObjectOutputStream( DataHolder StreamCallback )</id>
+    <exceptions>
+      <e>SecurityException</e>
+      <e>IOException</e>
+    </exceptions>
+    <params>
+      <param>
+        <type>DataHolder</type>
+        <name>dataHolder</name>
+      </param>
+      <param>
+        <type>StreamCallback</type>
+        <name>callback</name>
+      </param>
+    </params>
+    <arity>2</arity>
+  </method>
+</methods>
